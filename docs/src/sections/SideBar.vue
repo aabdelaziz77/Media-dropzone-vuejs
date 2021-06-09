@@ -32,7 +32,7 @@ export default {
         {
           title: 'Documentation',
           pages: [
-            { to: '/props', title: 'Props' },
+            { to: '/props', title: 'Configuration options' },
             { to: '/events', title: 'Events' },
             { to: '/solts', title: 'Solts' },
             { to: '/demo', title: 'Basic Demo' },
