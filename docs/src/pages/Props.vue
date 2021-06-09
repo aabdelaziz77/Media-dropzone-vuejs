@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Props</h1>
-    <p>The following props are available for the Vue2-Dropzone component.</p>
+    <p>The following props are available for the Media Dropzone component.</p>
     <simple-table :headers="['Prop Name', 'Type', 'Default', 'Description']" :rows="props" />
   </div>
 </template>

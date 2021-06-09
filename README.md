@@ -71,7 +71,7 @@ Example
     <template #subtitle>
         <div>...or click to select a file from your computer</div>
     </template>
-</vue-auto-dropzone>
+</media-dropzone-vuejs>
 ```
 #### Solts Properties
 | Name | Scoped |  Description |
@@ -99,13 +99,13 @@ Example
 Use [standard Vue event handling](https://vuejs.org/v2/guide/events.html) to listen for events and respond to them.
 
 ```html
-<vue-auto-dropzone
+<media-dropzone-vuejs
     :options="options"
     @drop="onDrop"
     @success="onSuccess"
 />
 ```
-#### Event List
+#### Events List
 | Name | Description |
 | --- | --- |
 | `drop` | The user dropped something onto the dropzone |
