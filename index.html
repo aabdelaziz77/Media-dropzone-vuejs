@@ -7,9 +7,20 @@
 
   <meta charset="UTF-8">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+  <style>
+    body .content {
+        left: 0px;
+    }
+    body .sidebar {
+        transform: translateX(-300px);
+    }
+    body .sidebar-toggle {
+        display: none;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div class="close" id="app"></div>
   <script>
     window.$docsify = {
       loadNavbar: false,
